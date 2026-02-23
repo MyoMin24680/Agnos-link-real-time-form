@@ -113,7 +113,7 @@ export default function PatientPage() {
                   required
                   value={form.firstName}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:border-teal-500 focus:ring-teal-500 text-gray-900"
+                  className="w-full px-4 py-3 bg-white border border-gray-300 rounded-xl focus:border-teal-500 focus:ring-teal-500 text-gray-900"
                 />
               </div>
               <div>
@@ -124,7 +124,7 @@ export default function PatientPage() {
                   name="middleName"
                   value={form.middleName}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:border-teal-500 focus:ring-teal-500 text-gray-900"
+                  className="w-full px-4 py-3 border bg-white border-gray-300 rounded-xl focus:border-teal-500 focus:ring-teal-500 text-gray-900"
                 />
               </div>
             </div>
@@ -139,7 +139,7 @@ export default function PatientPage() {
                 required
                 value={form.lastName}
                 onChange={handleChange}
-                className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:border-teal-500 focus:ring-teal-500 text-gray-900"
+                className="w-full px-4 py-3 border border-gray-300 bg-white rounded-xl focus:border-teal-500 focus:ring-teal-500 text-gray-900"
               />
             </div>
 
@@ -155,7 +155,7 @@ export default function PatientPage() {
                   required
                   value={form.dateOfBirth}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:border-teal-500 focus:ring-teal-500 text-gray-900"
+                  className="w-full px-4 py-3 border bg-white border-gray-300 rounded-xl focus:border-teal-500 focus:ring-teal-500 text-gray-900"
                 />
               </div>
               <div>
@@ -167,7 +167,7 @@ export default function PatientPage() {
                   required
                   value={form.gender}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:border-teal-500 focus:ring-teal-500 text-gray-900"
+                  className="w-full px-4 py-3 border bg-white border-gray-300 rounded-xl focus:border-teal-500 focus:ring-teal-500 text-gray-900"
                 >
                   <option value="">Select Gender</option>
                   <option value="Male">Male</option>
@@ -189,7 +189,7 @@ export default function PatientPage() {
                   required
                   value={form.phoneNumber}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:border-teal-500 focus:ring-teal-500 text-gray-900 require"
+                  className="w-full px-4 py-3 border bg-white border-gray-300 rounded-xl focus:border-teal-500 focus:ring-teal-500 text-gray-900 require"
                 />
               </div>
               <div>
@@ -202,7 +202,7 @@ export default function PatientPage() {
                   required
                   value={form.email}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:border-teal-500 focus:ring-teal-500 text-gray-900"
+                  className="w-full px-4 py-3 border bg-white border-gray-300 rounded-xl focus:border-teal-500 focus:ring-teal-500 text-gray-900"
                 />
               </div>
             </div>
@@ -217,7 +217,7 @@ export default function PatientPage() {
                 rows={3}
                 value={form.address}
                 onChange={handleChange}
-                className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:border-teal-500 focus:ring-teal-500 text-gray-900"
+                className="w-full px-4 py-3 border bg-white border-gray-300 rounded-xl focus:border-teal-500 focus:ring-teal-500 text-gray-900"
               />
             </div>
 
@@ -231,7 +231,7 @@ export default function PatientPage() {
                   name="preferredLanguage"
                   value={form.preferredLanguage}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:border-teal-500 focus:ring-teal-500 text-gray-900"
+                  className="w-full px-4 py-3 border bg-white border-gray-300 rounded-xl focus:border-teal-500 focus:ring-teal-500 text-gray-900"
                 >
                   <option>English</option>
                   <option>Myanmar</option>
@@ -247,7 +247,7 @@ export default function PatientPage() {
                   name="nationality"
                   value={form.nationality}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:border-teal-500 focus:ring-teal-500 text-gray-900"
+                  className="w-full px-4 py-3 border bg-white border-gray-300 rounded-xl focus:border-teal-500 focus:ring-teal-500 text-gray-900"
                 />
               </div>
             </div>
@@ -261,7 +261,7 @@ export default function PatientPage() {
                 name="religion"
                 value={form.religion}
                 onChange={handleChange}
-                className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:border-teal-500 focus:ring-teal-500 text-gray-900"
+                className="w-full px-4 py-3 border bg-white border-gray-300 rounded-xl focus:border-teal-500 focus:ring-teal-500 text-gray-900"
               />
             </div>
 
@@ -286,7 +286,7 @@ export default function PatientPage() {
                       name="emergencyName"
                       value={form.emergencyName}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:border-teal-500 focus:ring-teal-500 text-gray-900"
+                      className="w-full px-4 py-3 border bg-white border-gray-300 rounded-xl focus:border-teal-500 focus:ring-teal-500 text-gray-900"
                     />
                   </div>
                   <div>
@@ -297,7 +297,7 @@ export default function PatientPage() {
                       name="emergencyRelation"
                       value={form.emergencyRelation}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:border-teal-500 focus:ring-teal-500 text-gray-900"
+                      className="w-full px-4 py-3 border bg-white border-gray-300 rounded-xl focus:border-teal-500 focus:ring-teal-500 text-gray-900"
                     />
                   </div>
                 </div>
@@ -308,7 +308,7 @@ export default function PatientPage() {
             <button
               type="submit"
               disabled={!requiredFieldsFilled}
-              className="w-full py-4 px-6 bg-teal-600 hover:bg-teal-700 text-white font-semibold rounded-2xl text-lg transition disabled:bg-gray-400 disabled:cursor-not-allowed mt-4"
+              className="w-full py-4 px-6 bg-teal-600  hover:bg-teal-700 text-white font-semibold rounded-2xl text-lg transition disabled:bg-gray-400 disabled:cursor-not-allowed mt-4"
             >
               Submit Form
             </button>

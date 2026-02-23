@@ -29,7 +29,8 @@ body {
 /* Force readable input text color */
 input, textarea, select {
   color: #1f2937 !important;       /* gray-800 – very dark gray */
-  background-color: rgb(192, 41, 41) !important;
+  /* background-color: rgb(235, 230, 230) !important; */
+  background-color: rgb(235, 230, 230) !important;
 }
 
 input::placeholder {
@@ -39,6 +40,6 @@ input::placeholder {
 /* Optional: nice focus ring in teal/blue */
 input:focus, textarea:focus, select:focus {
   outline: none;
-  ring: 2px solid #0d9488;        /* teal-600 */
-  border-color: #0d9488;
+  ring: 2px solid #2d58b6;        /* teal-600 */
+  border-color: #0d2c94;
 }
