@@ -17,7 +17,7 @@ export default function StaffPage() {
     const channel = pusher.subscribe('patient-channel');
 
     channel.bind('form-update', (payload) => {
-      console.log('Received update:', payload); // ← debug log (remove later)
+      console.log('Received update:', payload); // ← debug log 
       setData(payload);
     });
 

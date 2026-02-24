@@ -1,4 +1,3 @@
-// app/api/broadcast/route.js
 import { NextResponse } from 'next/server';
 import Pusher from 'pusher';
 

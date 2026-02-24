@@ -31,7 +31,7 @@ export default function PatientPage() {
     form.phoneNumber.trim() &&
     form.email.trim();
 
-  // Real-time broadcast with debounce
+  // Real-time broadcast 
   const broadcast = async (data) => {
     try {
       await fetch("/api/broadcast", {
@@ -143,7 +143,7 @@ export default function PatientPage() {
               />
             </div>
 
-            {/* DOB & Gender */}
+            {/* DB & Gender */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-1">

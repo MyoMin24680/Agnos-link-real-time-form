@@ -1,23 +1,6 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
 body {
   background: var(--background);
@@ -28,18 +11,17 @@ body {
 
 /* Force readable input text color */
 input, textarea, select {
-  color: #1f2937 !important;       /* gray-800 – very dark gray */
-  /* background-color: rgb(235, 230, 230) !important; */
+  color: #1f2937 !important;     
   background-color: rgb(235, 230, 230) !important;
 }
 
 input::placeholder {
-  color: #9ca3af !important;       /* gray-400 – light gray placeholder */
+  color: #9ca3af !important;     
 }
 
-/* Optional: nice focus ring in teal/blue */
+/* Optional: nice focus ring in blue */
 input:focus, textarea:focus, select:focus {
   outline: none;
-  ring: 2px solid #2d58b6;        /* teal-600 */
+  ring: 2px solid #2d58b6;       
   border-color: #0d2c94;
 }
